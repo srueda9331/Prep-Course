@@ -59,14 +59,14 @@ describe('deleteAbc(cadena)', function() {
   });
 });  
 
-describe('sortArray(array)', function() {
+xdescribe('sortArray(array)', function() {
   it('should return a new array in increasing order', function() {
     expect(sortArray(["You", "are", "beautiful", "looking"])).toEqual(["You", "are", "looking", "beautiful"]);
     expect(sortArray(["pera", "manzana", "alcaucil", "papa"])).toEqual(["pera", "papa", "manzana", "alcaucil"]);
   });
 });
 
-describe('buscoInterseccion(arreglo1, arreglo2)', function() {
+xdescribe('buscoInterseccion(arreglo1, arreglo2)', function() {
   it('should return the common elements of the array, and in case they do not match, return an empty array', function() {
     expect(buscoInterseccion([1, 2 , 3], [1, 5, 8 , 3])).toEqual([1, 3]);
     expect(buscoInterseccion([7 , 23, 4], [23, 70])).toEqual([23]);
